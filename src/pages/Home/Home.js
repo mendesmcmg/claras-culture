@@ -1,7 +1,15 @@
+import { useEffect, useState } from "react";
+import { getTopics } from "../../api/api";
 import Card from "../../components/Card/Card";
 import "./Home.css";
 
 function Home() {
+  const [topics, setTopics] = useState([]);
+
+  useEffect(() => {
+    getTopics().then((topics) => setTopics(topics));
+  }, []);
+
   return (
     <div className="container">
       <div className="title-container">
