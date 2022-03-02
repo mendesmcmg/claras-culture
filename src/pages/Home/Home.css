@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #D81919;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-container {
+  border-bottom: 3px solid #F9C22E;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  color: #F9C22E;
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  font-weight: 400;
+}
