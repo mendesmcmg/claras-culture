@@ -21,7 +21,7 @@ function Home() {
         <h1>Clara's Notes</h1>
       </div>
 
-      <div className="content-container">
+      <div className="cards-container">
         {topics
           ? topics.map((topic) => (
               <Card

@@ -2,7 +2,7 @@ import './Content.css';
 
 function Content() {
   return (
-    <div className="container">
+    <div className="content-page-container">
       <div className="title-container">
         <h1>Content</h1>
       </div>
